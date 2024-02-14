@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.right a {
+    margin-left: 10px; /* ou qualquer outra margem desejada */
+}
+
+/* Adicione estas regras ao seu arquivo CSS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Cor de fundo branca */
+    color: #000; /* Cor do texto preto */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333333; /* Cor de fundo do cabeçalho */
+}
+
+.nome {
+    font-size: 1.3em;
+    color: #fff; /* Cor do texto branco */
+    text-decoration: none;
+}
+
+.right a {
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-weight: normal; /* Remova o negrito para um estilo mais leve */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.right a:hover {
+    color: #ffd700;
+}
+
+.akali {
+    display:flex;
+    text-align:justify;
+    justify-content: space-between;
+    width: 600px;
+    border: 2px solid white;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+a {
+    color:black;
+}
+
+.akali2 {
+    display:inline-block;
+    text-align:left;
+    justify-content: center;
+    border: 2px solid white;
+    padding-left: 5px;
+    margin-left: 10px;
+}
